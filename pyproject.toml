@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "screen-controller"
+version = "0.1.0"
+description = ""
+authors = ["syuuma-ito <itosyuuma@gmail.com>"]
+readme = "README.md"
+packages = [{include = "screen_controller"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^1.0.0"
+obsws-python = "^1.5.2"
+rich = "^13.5.2"
+python-socketio = "^5.8.0"
+pygame = "^2.5.0"
+numpy = "^1.25.2"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

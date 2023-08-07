@@ -40,7 +40,7 @@ SEVER_URL = os.environ.get("SEVER_URL")
 FPS = 60
 BACKGROUND_COLOR = (0, 0, 0)
 
-ENVS = {
+ENV = {
     "SCENE_WIDTH_CM": SCENE_WIDTH_CM,
     "SCENE_HEIGHT_CM": SCENE_HEIGHT_CM,
     "RANGE_WITH_SCREEN": RANGE_WITH_SCREEN,
@@ -130,8 +130,7 @@ def game_main():
                         random.randrange(0, WINDOW_WIDTH),
                         random.randrange(0, WINDOW_HEIGHT),
                     ),
-                    WINDOW_WIDTH,
-                    WINDOW_HEIGHT,
+                    ENV,
                 )
                 self.enemies.append(pygame.sprite.GroupSingle(enemy_sprite))
 

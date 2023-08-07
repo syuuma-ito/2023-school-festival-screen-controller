@@ -6,7 +6,7 @@ class PlayerPointer(pygame.sprite.Sprite):
         super().__init__()
         # TODO 色を変えられるようにする
         self.image = pygame.transform.scale(
-            pygame.image.load("./src/img/pointer/ポインター黃.png").convert_alpha(), (50, 50)
+            pygame.image.load("./src/img/pointer/ポインター緑.png").convert_alpha(), (50, 50)
         )
         self.rect = self.image.get_rect(center=position)
         self.speed = 5

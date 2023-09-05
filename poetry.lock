@@ -419,7 +419,22 @@ docs = ["Sphinx (>=3.4)", "sphinx-rtd-theme (>=0.5)"]
 optional = ["python-socks", "wsaccel"]
 test = ["websockets"]
 
+[[package]]
+name = "websocket-server"
+version = "0.6.4"
+description = "A simple fully working websocket-server in Python with no external dependencies"
+optional = false
+python-versions = ">=3.6"
+files = []
+develop = false
+
+[package.source]
+type = "git"
+url = "https://github.com/Pithikos/python-websocket-server.git"
+reference = "HEAD"
+resolved_reference = "56af8aeed025465e70133f19f96db18113e50a91"
+
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "362732e1cebce24b943fe47c3e73661a71ed09c1feee94d3ceef765a139160ae"
+content-hash = "565756d93c167fc00b67c5cb33c9f8a2ee241af0e0567dc6c58b644588e22db1"

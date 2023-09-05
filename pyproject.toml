@@ -15,6 +15,7 @@ python-socketio = "^5.8.0"
 pygame = "^2.5.0"
 numpy = "^1.25.2"
 requests = "^2.31.0"
+websocket-server = {git = "https://github.com/Pithikos/python-websocket-server.git"}
 
 
 [build-system]
